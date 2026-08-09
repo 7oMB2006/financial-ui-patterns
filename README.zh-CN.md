@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/readme/personal-oc-notes.webp" width="160" alt="作者的原创角色抱着笔记本。">
+  <img src="./assets/readme/personal-oc-notes.gif" width="160" alt="作者的原创角色抱着笔记本。">
 </p>
 
 ## 这里收录什么

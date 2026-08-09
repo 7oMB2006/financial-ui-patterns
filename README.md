@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/readme/personal-oc-notes.webp" width="160" alt="The author's original character holding a notebook.">
+  <img src="./assets/readme/personal-oc-notes.gif" width="160" alt="The author's original character holding a notebook.">
 </p>
 
 ## What This Holds
