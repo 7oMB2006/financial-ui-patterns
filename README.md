@@ -16,6 +16,10 @@
   <a href="#included-skills">Skills</a> · <a href="#install-for-codex">Install</a> · <a href="#principles">Principles</a>
 </p>
 
+<p align="center">
+  <img src="./assets/readme/personal-oc-notes.webp" width="160" alt="The author's original character holding a notebook.">
+</p>
+
 ## What This Holds
 
 A small, growing set of reusable decisions for financial interfaces: how values carry directional meaning, and how dense charts keep their final labels readable without corrupting the underlying market facts.

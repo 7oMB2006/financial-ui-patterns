@@ -16,6 +16,10 @@
   <a href="#已收录技能">技能</a> · <a href="#安装到-codex">安装</a> · <a href="#原则">原则</a>
 </p>
 
+<p align="center">
+  <img src="./assets/readme/personal-oc-notes.webp" width="160" alt="作者的原创角色抱着笔记本。">
+</p>
+
 ## 这里收录什么
 
 这是一个小而持续增长的金融界面设计经验集：数值应如何表达方向与强弱，以及信息密集的图表应如何保持线尾标签可读，同时不篡改底层市场事实。
