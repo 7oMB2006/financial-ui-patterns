@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stock Colors"
+  short_description: "Red-green magnitude colors for financial values."
+  default_prompt: "Use $stock-colors for the financial value colors in this UI."

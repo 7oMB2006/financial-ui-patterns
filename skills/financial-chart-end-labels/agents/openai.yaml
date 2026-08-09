@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Chart End Labels"
+  short_description: "Collision-aware end labels for financial charts."
+  default_prompt: "Use $financial-chart-end-labels to place the labels at the ends of this financial line chart."
