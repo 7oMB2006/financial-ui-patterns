@@ -1,42 +1,57 @@
 # Financial UI Patterns
 
-Personal frontend design patterns and Codex skills distilled from my own financial product work, covering market data visualization, chart interactions, and financial UI semantics.
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Financial UI Patterns: personal design patterns for market data interfaces, showing value semantics and collision-aware line-end labels.">
+</p>
 
-This repository captures reusable interface decisions, not a product codebase, market-data source, trading system, or investment advice.
+<p align="center">
+  Personal frontend design patterns and Codex skills distilled from my own financial product work.
+</p>
+
+<p align="center">
+  <a href="#included-skills">Skills</a> · <a href="#install-for-codex">Install</a> · <a href="#principles">Principles</a>
+</p>
+
+## What This Holds
+
+A small, growing set of reusable decisions for financial interfaces: how values carry directional meaning, and how dense charts keep their final labels readable without corrupting the underlying market facts.
+
+This is not a product codebase, market-data source, trading system, or investment advice.
 
 ## Included Skills
 
-| Skill | Focus |
-| --- | --- |
-| [`stock-colors`](./skills/stock-colors) | Chinese-market red-up/green-down magnitude semantics for financial values, tables, heatmaps, charts, and labels. |
-| [`financial-chart-end-labels`](./skills/financial-chart-end-labels) | Collision-aware line-end labels, connectors, state annotations, and replay-time endpoint behavior for financial line charts. |
+### [`stock-colors`](./skills/stock-colors)
+
+**Make financial values readable at a glance.** Defines Chinese-market red-up/green-down magnitude semantics for values, labels, tables, heatmaps, and charts. Small moves stay soft; stronger moves become more vivid without turning low-magnitude values muddy.
+
+### [`financial-chart-end-labels`](./skills/financial-chart-end-labels)
+
+**Keep the end of a line truthful and legible.** Defines collision-aware endpoint labels, real-point connectors, compact collision chains, state annotations, and replay-time behavior. The strongest line stays parallel; only labels that would overlap follow downward.
 
 ## Design Boundary
 
-Use the two skills together without merging their responsibilities:
+The skills are deliberately complementary:
 
-- `stock-colors` defines what a financial value's color means.
-- `financial-chart-end-labels` defines where a line's final label belongs and how it avoids collisions.
-
-Both preserve factual values and readable labels. Neither should make a chart look tidier by changing the underlying data or bending a series.
+| Concern | Skill | Rule of thumb |
+| --- | --- | --- |
+| What a value's color means | [`stock-colors`](./skills/stock-colors) | Color reinforces a signed number and its unit. |
+| Where a line-end label belongs | [`financial-chart-end-labels`](./skills/financial-chart-end-labels) | Move labels, not market data or curve geometry. |
 
 ## Install For Codex
 
-Clone the repository, then copy the skills you want into your local Codex skills directory:
-
-```bash
+~~~bash
 git clone https://github.com/7oMB2006/financial-ui-patterns.git
 cp -R financial-ui-patterns/skills/stock-colors ~/.codex/skills/
 cp -R financial-ui-patterns/skills/financial-chart-end-labels ~/.codex/skills/
-```
+~~~
 
-On Windows PowerShell, use `Copy-Item -Recurse` in place of `cp -R`. Reload Codex after installation so it discovers the new skill folders.
+On Windows PowerShell, use `Copy-Item -Recurse` in place of `cp -R`. Reload Codex after installation so it discovers the skill folders.
 
 ## Principles
 
 - Derive rules from real financial-product implementation work, then abstract them so they remain portable.
 - Keep product names, private data, endpoints, and application-specific conventions out of reusable skills.
-- Treat financial UI as an explanation surface: show signed values, units, timestamps, source state, and unavailable data explicitly.
+- Treat a financial interface as an explanation surface: show signed values, units, timestamps, source state, and unavailable data explicitly.
 - Prefer interaction and visual rules that preserve market facts over decorative visual effects.
 
 ## License
