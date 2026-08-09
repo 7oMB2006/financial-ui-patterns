@@ -28,9 +28,19 @@ This is not a product codebase, market-data source, trading system, or investmen
 
 **Make financial values readable at a glance.** Defines Chinese-market red-up/green-down magnitude semantics for values, labels, tables, heatmaps, and charts. Small moves stay soft; stronger moves become more vivid without turning low-magnitude values muddy.
 
+<p align="center">
+  <img src="./assets/readme/stock-colors-example.png" width="100%" alt="A financial theme panel where large gains use deep red, small gains use light red, and declines use progressively stronger green.">
+</p>
+
+
 ### [`financial-chart-end-labels`](./skills/financial-chart-end-labels)
 
 **Keep the end of a line truthful and legible.** Defines collision-aware endpoint labels, real-point connectors, compact collision chains, state annotations, and replay-time behavior. The strongest line stays parallel; only labels that would overlap follow downward.
+
+<p align="center">
+  <img src="./assets/readme/financial-chart-end-labels-example.png" width="100%" alt="A market fund-flow chart whose line-end labels retain real endpoints, use connectors, and form compact collision-aware label groups.">
+</p>
+
 
 ## Design Boundary
 

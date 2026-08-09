@@ -28,9 +28,19 @@
 
 **让金融数值一眼可读。** 定义中国市场常用的红涨绿跌与绝对值渐变语义，适用于数值标签、表格、热力图与图表。小幅波动保持柔和，较大波动更鲜明，但不让小数值变得浑浊难辨。
 
+<p align="center">
+  <img src="./assets/readme/stock-colors-example.png" width="100%" alt="金融主题面板示例：大幅上涨使用深红，小幅上涨使用浅红，下跌使用由浅至深的绿色。">
+</p>
+
+
 ### [`financial-chart-end-labels`](./skills/financial-chart-end-labels)
 
 **让折线末端既真实又清晰。** 定义线尾标签避让、真实终点连接线、最小碰撞链、状态标记和历史回放行为。强者保持平行，只有将会重叠的后续标签才向下尾随。
+
+<p align="center">
+  <img src="./assets/readme/financial-chart-end-labels-example.png" width="100%" alt="市场资金流曲线示例：线尾标签保留真实终点、使用连接线，并形成紧凑的碰撞避让标签组。">
+</p>
+
 
 ## 设计边界
 
