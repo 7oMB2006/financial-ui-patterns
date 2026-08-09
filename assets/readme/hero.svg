@@ -9,12 +9,14 @@
   </defs>
   <rect width="1200" height="360" rx="28" fill="url(#surface)"/>
   <g id="title-block" transform="translate(58 54)">
-    <rect width="154" height="30" rx="15" fill="#f7c869" fill-opacity=".13" stroke="#f7c869" stroke-opacity=".46"/>
-    <text x="16" y="20" fill="#f7c869" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.2">PERSONAL PRACTICE</text>
-    <text x="0" y="92" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="52" font-weight="700">Financial UI</text>
-    <text x="0" y="148" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="52" font-weight="700">Patterns</text>
-    <text x="0" y="196" fill="#a8b2c2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">Design decisions for market data interfaces,</text>
-    <text x="0" y="224" fill="#a8b2c2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">distilled into reusable Codex skills.</text>
+    <rect width="570" height="48" rx="12" fill="#0b0f17" fill-opacity=".66" stroke="#ffffff" stroke-opacity=".13"/>
+    <rect x="12" y="9" width="154" height="30" rx="15" fill="#f7c869" fill-opacity=".13" stroke="#f7c869" stroke-opacity=".46"/>
+    <text x="28" y="29" fill="#f7c869" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="1.2">PERSONAL PRACTICE</text>
+    <text x="550" y="29" text-anchor="end" fill="#8793a7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing=".8">FINANCIAL FRONTEND / 001</text>
+    <text x="0" y="112" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="52" font-weight="700">Financial UI</text>
+    <text x="0" y="168" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="52" font-weight="700">Patterns</text>
+    <text x="0" y="218" fill="#a8b2c2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">Design decisions for market data interfaces,</text>
+    <text x="0" y="246" fill="#a8b2c2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">distilled into reusable Codex skills.</text>
     <g transform="translate(0 280)">
       <circle cx="8" cy="0" r="6" fill="#ef4444"/><text x="22" y="6" fill="#d9e0ea" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">VALUE SEMANTICS</text>
       <circle cx="226" cy="0" r="6" fill="#8c79e6"/><text x="240" y="6" fill="#d9e0ea" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">LABEL LAYOUT</text>

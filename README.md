@@ -1,5 +1,9 @@
 # Financial UI Patterns
 
+<p align="right">
+  English · <a href="./README.zh-CN.md">简体中文</a>
+</p>
+
 <p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="Financial UI Patterns: personal design patterns for market data interfaces, showing value semantics and collision-aware line-end labels.">
 </p>
